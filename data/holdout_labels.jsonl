@@ -1,0 +1,16 @@
+{"id": "h01", "language": "en", "issue_type": "login", "priority": "normal", "product_area": "authentication", "escalation_required": false, "escalation_rule": null}
+{"id": "h02", "language": "de", "issue_type": "bug", "priority": "normal", "product_area": "integrations", "escalation_required": false, "escalation_rule": null}
+{"id": "h03", "language": "fr", "issue_type": "login", "priority": "normal", "product_area": "authentication", "escalation_required": false, "escalation_rule": null}
+{"id": "h04", "language": "es", "issue_type": "bug", "priority": "normal", "product_area": "mobile_app", "escalation_required": false, "escalation_rule": null}
+{"id": "h05", "language": "en", "issue_type": "billing", "priority": "normal", "product_area": "billing", "escalation_required": false, "escalation_rule": null}
+{"id": "h06", "language": "de", "issue_type": "other", "priority": "low", "product_area": "billing", "escalation_required": false, "escalation_rule": null}
+{"id": "h07", "language": "fr", "issue_type": "billing", "priority": "normal", "product_area": "billing", "escalation_required": false, "escalation_rule": null}
+{"id": "h08", "language": "es", "issue_type": "other", "priority": "low", "product_area": "billing", "escalation_required": false, "escalation_rule": null}
+{"id": "h09", "language": "en", "issue_type": "feature_request", "priority": "low", "product_area": "web_app", "escalation_required": false, "escalation_rule": null}
+{"id": "h10", "language": "de", "issue_type": "bug", "priority": "urgent", "product_area": "admin_console", "escalation_required": true, "escalation_rule": "data_exposure"}
+{"id": "h11", "language": "fr", "issue_type": "other", "priority": "low", "product_area": "notifications", "escalation_required": false, "escalation_rule": null}
+{"id": "h12", "language": "es", "issue_type": "bug", "priority": "urgent", "product_area": "web_app", "escalation_required": true, "escalation_rule": "service_wide_outage"}
+{"id": "h13", "language": "en", "issue_type": "bug", "priority": "urgent", "product_area": "web_app", "escalation_required": true, "escalation_rule": "service_wide_outage"}
+{"id": "h14", "language": "de", "issue_type": "feature_request", "priority": "low", "product_area": "mobile_app", "escalation_required": false, "escalation_rule": null}
+{"id": "h15", "language": "fr", "issue_type": "bug", "priority": "urgent", "product_area": "api", "escalation_required": true, "escalation_rule": "credential_leak"}
+{"id": "h16", "language": "es", "issue_type": "other", "priority": "low", "product_area": "general", "escalation_required": false, "escalation_rule": null}

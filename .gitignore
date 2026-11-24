@@ -1,0 +1,8 @@
+# Local secrets and environment
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Generated evaluation reports
+reports/

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SupportTicketTriage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "language",
+    "issue_type",
+    "priority",
+    "product_area",
+    "summary"
+  ],
+  "properties": {
+    "language": {
+      "enum": ["en", "de", "fr", "es"],
+      "description": "Language of the ticket text itself."
+    },
+    "issue_type": {
+      "enum": ["login", "billing", "bug", "feature_request", "other"]
+    },
+    "priority": {
+      "enum": ["urgent", "normal", "low"]
+    },
+    "product_area": {
+      "enum": [
+        "authentication",
+        "billing",
+        "notifications",
+        "integrations",
+        "mobile_app",
+        "web_app",
+        "api",
+        "admin_console",
+        "general"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "One line in English; no more than 200 characters."
+    }
+  }
+}
